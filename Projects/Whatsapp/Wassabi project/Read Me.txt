@@ -1,0 +1,41 @@
+==================================================
+                                         WASSABI SPY BOT
+==================================================
+
+By Arijit Dubey
+(Please read this in full screen.)
+
+Description:
+---------------
+The 'Wassabi' is a series of WhatsApp Web based Spy Bots designed and created by Arijit Dubey. They provide a completely legal way of saving your time and energy(Yea like you got more important things to do man) by automatically alerting you and storing the necessary data and/or pinging the victim on your behalf.
+
+Versions and their Functions:
+-----------------------------------
+1. Wassabi 2.0.0 : The Wassabi 2.0.0 Bot when deployed to spy on a particular victim, simply checks when the victim gets online on WhatsApp and mails you
+ in about the latency of a few seconds on the mail id provided by you. It also creates a small beep of 1000 Hz for 1 second to alert you.
+
+2. Wassabi 2.0.1 : The Wassabi 2.0.1 Bot when deployed to spy on a particular victim, 
+i. creates a small  beep of 1000 Hz for 1 second to alert you
+ii. Prints the time of the victim coming online on WhatsApp on the screen
+iii. And makes a csv file by the name of Output.csv in the location specified by the user.
+iv. Mails you on the specified ID
+
+3. Wassabi 2.0.2 :  The Wassabi 2.0.2 Bot when deployed to spy on a particular victim, 
+i. creates a small beep of 1000 Hz for 1 second to alert you
+ii. Prints the time of the victim coming online on WhatsApp on the screen
+iii. And makes a csv file by the name of log.csv in the location specified by the user. This unlike the 2.0.1 version also records the date and name of the user. Thus this version can keep record of multiple victims in one file.
+
+4. Wassabi 2.0.3 :  The Wassabi 2.0.3 Bot when deployed to spy on a particular victim, 
+i. creates a small beep of 1000 Hz for 1 second to alert you
+ii. Prints the time of the victim coming online on WhatsApp on the screen
+iii. And makes a csv file by the name of output_data.csv in the location specified by the user. This unlike the 2.0.1 version also records the date and name of the user. Thus this version can keep record of multiple victims in one file.
+iv. And this version unlike 2.0.2 keeps on running the program even after the user comes online once. It basically goes on storing the online time of the user as long as it is running.
+
+5. Wassabi 3.0.0 : The Wassabi 3.0.0 Bot when deployed to spy on a particular victim,
+i. creates a small beep of 1000 Hz for 1 second to alert you
+ii. Sends a message specified by you to the victim as many times as you want as soon as he/she comes online.
+
+6. Wassabi 3.1.0 : The Wassabi 3.1.0 Bot when deployed to spy on a particular victim,
+i. creates a small beep of 1000 Hz for 1 second to alert you
+ii. Sends a DOCUMENT/VIDEO/AUDIO/PICTURE message specified by you to the victim as many times as you want as soon as he/she comes online.
+

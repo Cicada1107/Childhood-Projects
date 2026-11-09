@@ -1,0 +1,6 @@
+1. A program to countdown to 10 mins for each sum preferably with tkinter of kivy such that it allows the user to open 
+firefox or reset the timer for a new question (with the help of buttons) in case the user was able to sovle the question succesfully.
+2. The aim of this program will be to facilitate efficient sum solving so as to maximize the number of sums solved by the user in a given 
+period of time by setting a time limit for each sum.
+3. Features: a. add 1 min button, b. Time counter, c. Open firefox(optional), d. Next question button, e. Set time/question button
+4. Graphical interface to be used: preferably kivy or tkinter.

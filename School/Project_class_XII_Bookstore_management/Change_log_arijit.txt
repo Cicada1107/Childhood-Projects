@@ -1,0 +1,5 @@
+This file is to keep a record of all the changes I(Arijit) have made to the original code of the bookstore management code.
+
+1. Book.py: Changed `__cur.autocorrect(True)` to `__cur.autocorrect = True`
+2. Book.py: <line number 12>Added `buffered = True` arguement to cursor object creation to resolve issue with viewing the stocks
+3. Book.py: <line number 60>Changed "enter password to confirm" to re-enter password to confirm

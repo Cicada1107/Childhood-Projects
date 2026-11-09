@@ -1,0 +1,3 @@
+1. Make it base on requests and the built in file handling of csv module
+2. Please replace the 'sleep(240)' method for logging. It's hilarious. Instead, make a note of the time when the target goes offline, and then print both online, offline time and thus the duration of the onlin appearance of the target.
+3. Make the bot also print the time when it starts working. Thi way, it would be possible to find out how much data is available for how much part of the day.

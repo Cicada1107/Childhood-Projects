@@ -1,0 +1,1 @@
+After copmpletion of the bot use replit to make a similar web host as in the case of discord bot.

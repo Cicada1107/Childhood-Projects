@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "main.py", line 114, in <module>
+    client.start()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/telethon/client/auth.py", line 133, in start
+    else self.loop.run_until_complete(coro)
+  File "/usr/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/telethon/client/auth.py", line 140, in _start
+    await self.connect()
+  File "/opt/virtualenvs/python3/lib/python3.8/site-packages/telethon/client/telegrambaseclient.py", line 541, in connect
+    await self._sender.send(functions.InvokeWithLayerRequest(
+telethon.errors.rpcerrorlist.AuthKeyDuplicatedError: The authorization key (session file) was used
+ under two different IP addresses simultaneously, and can no longer be used. Use the same session 
+exclusively, or use different sessions (caused by InvokeWithLayerRequest(InitConnectionRequest(GetConfigRequest)))

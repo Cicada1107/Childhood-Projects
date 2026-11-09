@@ -1,0 +1,12 @@
+https://github.com/amiryousefi/telegram-analysis/blob/master/ChannelMessages.py
+
+useful links:
+
+How to get a user in telethon in telgram in python:
+https://www.google.com/search?q=how+ot+get+a+user+in+telegram+in+telethon+in+python&oq=how+ot+get+a+user+in+telegram+in+telethon+in+python&aqs=chrome..69i57j33i10i160l3j33i10i21.17616j0j1&sourceid=chrome&ie=UTF-8
+
+Scraping active users form telegram isntead of all users:
+https://github.com/LonamiWebs/Telethon/issues/1243
+
+How to use python ot get telegram channel messages and users list:
+https://www.youtube.com/watch?v=aU1p-F7gDo4

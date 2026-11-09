@@ -1,0 +1,10 @@
+1. user formattable output/log file location
+2. Make user formattable mail id
+3. make GUI
+4. Make all of them exe files and then use NSIS to make a set up of a file consisting of versions 2.0.0 to latest(exe format not the code) and the readme.
+
+**WE CAN MAKE A WHOLE NEW VERSION OF IT WHICH IS BASED ON THE REQUESTS MODULE AND DOES NOT USE PANDAS BUT THE BUILT IN FILE FUNCTIONS(It would also be much faster and prolly a lot more optimised too...)**
+N.B. >>> I forgot that maybe requests module wont work with this my bad
+
+5. Make use of matplotlib to maybe plot a graph of frequency of coming online(avg diff. between two consecutive online instances) vs time of day.
+6. Rewrite the code in up to date language as this code gives a warning.

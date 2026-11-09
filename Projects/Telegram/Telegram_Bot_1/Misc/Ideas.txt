@@ -1,0 +1,4 @@
+1. make a help command
+2. look for the from_users parameter or whatever for the dad bot etc.
+3. Look for more sophisticated ways(parameters?) for getting 'n' for the purge and meme commands
+4. We need a command to toggle the bot on or off or maybe to suspend it for a few minutes.

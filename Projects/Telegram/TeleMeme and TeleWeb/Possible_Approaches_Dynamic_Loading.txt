@@ -1,0 +1,20 @@
+Possible approaches to load more memes than just what is available in the first page of the url:
+
+1. Using selenium to scroll down and save the html of the newly loaded resources
+2. Using requests to get the first page then figuring out the requests sent by the website when user scrolls down to the end of page
+ by going to "inspect>>Network>>html" tab and then seeing what new link pops up. It is a url with a specific set of params as in 
+ "reqcount" = the no. of sub page you are at, "ts" and "_" which sem to have the last 4 digits and last digit affected by the 'reqcount'
+  value and then using this info to reproduce the same request and send it when a certain condition becomes true like more than x number
+   of memes required. {https://stackoverflow.com/questions/43298496/scrape-entire-scrolling-load-page-with-python-requests}
+3. Using the info in point 2 to get the number of memes required by coninuing the loop as long as the number of items in the "memes"
+ list is not as much as specified by the user and then directly giving them to user. This is more efficient than 2.
+4. Using scrapy module. {https://docs.scrapy.org/en/2.9/intro/examples.html}
+5. Using PyQt QWebkit. {https://stackoverflow.com/questions/37092265/repeatedly-scroll-to-the-bottom-of-a-page-using-pyqt-qwebkit}
+6. use the same panel in no. 2 and check the "response" tab by clicking on the initiator (blue color link)
+ and then you can see the json response where all the memes are given with their links and captions etc. extract this info somehow.
+7. How to understand the parameter in a query of a url {https://youtu.be/PKK7HqD8bS8}
+8. Use Scrapy and BeautifulSoup {https://www.accordbox.com/blog/how-crawl-infinite-scrolling-pages-using-python/}
+9. Using 9GAG API instead to get articles direectly from 9GAG {https://github.com/sashgorokhov/python-ninegag} or
+ {https://github.com/and3rson/nineapi}
+10. found the solution to the memedroid meme limit. You simply have to add a query string of page=2 or 3 or
+ so on in the top memes of the day link to get the next pages there.

@@ -1,0 +1,2 @@
+1. Make a rickroll link detector bot whcih basically opens/peeks every link and finds out the video name and description 
+and flags the vid if there is the word "rick roll or never gonna give you up etc" in the same.
